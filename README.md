@@ -26,4 +26,7 @@
 - [Truth Value](https://docs.python.org/3/library/stdtypes.html)
 - [String Method](https://docs.python.org/3/library/stdtypes.html#string-methods)
 - [Bulit-in-function](https://docs.python.org/3/library/functions.html)
-- 
+- [Operator precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence)
+
+# Notes
+- casefold()

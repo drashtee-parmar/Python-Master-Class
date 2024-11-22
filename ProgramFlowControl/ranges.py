@@ -6,7 +6,7 @@
 # For loop
 # Write a program to print out all the numbers from 0 to 9.
 # Each number should print on a new line (which is the default behaviour of print).
-for i in range(0, 10, 2):
+for i in range(0, 10, 2): # start, end but not inculded, step of 2
     print("{}".format(i))
 print("*" * 30)
 # count backwards
