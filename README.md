@@ -20,6 +20,51 @@
 - NOT logical operator negates a boolean value. It returns a true when the expression is false and vice versa. If a value is false, the NOT value becomes true, and the program executes. If a value is true, the NOT value becomes false, and the program does not run.
 ![img_3.png](img_3.png)
 
+## List 
+
+## Immutable objects
+- when an object is described as `immutable`, that means it cannot be changed
+- The following `immutable` types are built into python
+  - int
+  - float
+  - bool (True and False): a subclass of `int`
+  - str (string)
+  - tuple
+  - frozenset
+  - bytes
+  - 
+## Mutable objects
+- A Mutable object is one whose value can be changed
+- Python has the following `mutable` object built in:
+  - list
+  - dict
+  - set
+  - Bytearray
+
+## Difference between `immutable` and `immutable
+
+- An immutable object can't be changed. You can create a new object, and use the same variable name for it, but you can't change the value of a immutable object
+- `Mutable` objects, such as lists, `can` be changed
+
+```commandline
+Strings are immutable. When we tried to change a string. Python created a new object : a new string - and re-attached the name to it. 
+
+Lists are immutable - they can be changed. When we appended a new item, Python was able to change the contents of the list, without creating a new one.
+```
+
+## Methods and Functions
+- A method is the same as a function, except that it's bound to an object
+
+### Function:
+ - min
+ - max
+ - len
+
+## Enumerate:
+- Enumerate returns pairs of values 
+- 
+
+
 
 
 # RESOURCES
@@ -29,6 +74,7 @@
 - [Operator precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence)
 - [pip8](https://peps.python.org/pep-0008/)
 - [Sequence Type](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
-
+- [id](https://docs.python.org/3/library/functions.html#id)
+- [Mutable Sequence Types](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
 # Notes
 - casefold()
