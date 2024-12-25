@@ -76,5 +76,16 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [Sequence Type](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 - [id](https://docs.python.org/3/library/functions.html#id)
 - [Mutable Sequence Types](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
+- [Built-in Functions](https://docs.python.org/3/library/functions.html)
+- [Mutable Sequence Types](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
+- 
+
+
+
+
+
+
+
+
 # Notes
 - casefold()
