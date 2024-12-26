@@ -81,6 +81,7 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [pip 8 style guide](https://peps.python.org/pep-0008/)
 - [Google style guide](https://google.github.io/styleguide/pyguide.html)
 - [Built in functions](https://docs.python.org/3/library/functions.html)
+- [Lists](https://docs.python.org/3/library/stdtypes.html#typesseq-list)
 - 
 
 
