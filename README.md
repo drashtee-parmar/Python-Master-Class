@@ -62,8 +62,13 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 
 ## Enumerate:
 - Enumerate returns pairs of values 
-- 
 
+## Tuples:
+- A `tuple` is a mathematical name for an ordered set of data
+- In python, tuples are another sequence type; along with strings, list and ranges
+- Tuples differs from list because tuples are `immutable`. That means they can't be changed after they're created - just like string
+- always use it in parentheses ()
+- 
 
 
 
@@ -82,7 +87,7 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [Google style guide](https://google.github.io/styleguide/pyguide.html)
 - [Built in functions](https://docs.python.org/3/library/functions.html)
 - [Lists](https://docs.python.org/3/library/stdtypes.html#typesseq-list)
-- 
+- [Common Sequence Operations](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations)
 
 
 
