@@ -41,7 +41,7 @@
   - set
   - Bytearray
 
-## Difference between `immutable` and `immutable
+## Difference between `immutable` and `immutable`
 
 - An immutable object can't be changed. You can create a new object, and use the same variable name for it, but you can't change the value of a immutable object
 - `Mutable` objects, such as lists, `can` be changed
@@ -78,6 +78,9 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [Mutable Sequence Types](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
 - [Built-in Functions](https://docs.python.org/3/library/functions.html)
 - [Mutable Sequence Types](https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types)
+- [pip 8 style guide](https://peps.python.org/pep-0008/)
+- [Google style guide](https://google.github.io/styleguide/pyguide.html)
+- [Built in functions](https://docs.python.org/3/library/functions.html)
 - 
 
 
