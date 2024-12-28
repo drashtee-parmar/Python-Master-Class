@@ -17,7 +17,7 @@ print(z)
 print("Unpacking a list")
 
 data_list = [12, 13, 14]
-data_list.append(15)
+# data_list.append(15)
 p, q, r = data_list
 print(p)
 print(q)

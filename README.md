@@ -68,7 +68,14 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - In python, tuples are another sequence type; along with strings, list and ranges
 - Tuples differs from list because tuples are `immutable`. That means they can't be changed after they're created - just like string
 - always use it in parentheses ()
-- 
+
+## Constant
+- A constant is a fixed value that does not change
+- All in capital and should not change
+- example: 
+  - PI: The ratio of a circle's circumference to its diameter = 3.141592653589790
+  - e: the base of natural logarithms = 2.718281828
+  - 
 
 
 
@@ -88,7 +95,7 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [Built in functions](https://docs.python.org/3/library/functions.html)
 - [Lists](https://docs.python.org/3/library/stdtypes.html#typesseq-list)
 - [Common Sequence Operations](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations)
-
+- [Constants](https://peps.python.org/pep-0008/#constants)
 
 
 
