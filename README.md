@@ -77,7 +77,22 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
   - e: the base of natural logarithms = 2.718281828
   - 
 
+## Mehohod
+- a function that's bound to an instance of a class is called method.
+- 
 
+## funciton
+- def functionName(parameters name):
+- `parameters()` are like placeholders for the real values that we'll pass to the function
+- They are just variable, but they're given a value when you call the function.
+- it can also be referred to as formal parameters
+- `Arguments` are the values that will be used by `formal parameters`, when we call a function.
+- Each parameter must be given a value, by providing an `argument` in the function call.
+- Providing values as arguments is called `passing` the arguments
+- if a function defines two parameter, we `pass` two arguments to it when we call it.
+- `Positional argument` are assigned to the parameters in the order they appear.
+- In fact, the arguments in this example are really called `positional-or-keyword` arguments.
+- 
 
 # RESOURCES
 - [Truth Value](https://docs.python.org/3/library/stdtypes.html)
@@ -96,6 +111,9 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [Lists](https://docs.python.org/3/library/stdtypes.html#typesseq-list)
 - [Common Sequence Operations](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations)
 - [Constants](https://peps.python.org/pep-0008/#constants)
+- [funciton](https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference)
+- [call by sharing](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing)
+- [String Method](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
 
 
@@ -104,4 +122,6 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 
 
 # Notes
-- casefold()
+- casefold() - converts to lower case
+- isalnum() - alpha numeric
+- isalpha() - alphabetic character, decimal, digit, numeric
