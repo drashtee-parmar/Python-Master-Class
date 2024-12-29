@@ -114,7 +114,11 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [funciton](https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference)
 - [call by sharing](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing)
 - [String Method](https://docs.python.org/3/library/stdtypes.html#string-methods)
-
+- [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html)
+- [parameters](https://docs.python.org/3/glossary.html#term-parameter)
+- [Docstring Conventions](https://peps.python.org/pep-0257/)
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- 
 
 
 

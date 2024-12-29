@@ -2,6 +2,15 @@
 # Palidromes are normally created for fun. There's nothing wring with having a bit of fun, but
 
 def is_palindrome(string):
+    """
+    Check if a string is a palindrome.
+
+    A palindrome is a string that reads the same forwards as backwards.
+
+    :param string: The string to check.
+    :return: True if `string` is a palindrome, False otherwise.
+    """
+
     # backwards = string[::-1] # reverse the original string
     # return backwards == string
     return string[::-1].casefold() == string.casefold()  # casefold for upper and lower case strings
@@ -24,6 +33,16 @@ def is_palindrome(string):
 #
 
 def palindrome_sentence(sentence):
+    """
+        Check if a sentence is a palindrome.
+
+        The function ignores whitespace, capitalisation and
+        punctuation in the sentence.
+
+        :param sentence: The sentence to check.
+        :return: True if `sentence` is a palindrome, False otherwise.
+        """
+
     string = ""
     for char in sentence:
         if char.isalnum():
@@ -33,11 +52,11 @@ def palindrome_sentence(sentence):
     return is_palindrome(string)
 
 
-word = input("please enter a word to check: ")
-if palindrome_sentence(word):
-    print("'{}' is a palindrome".format(word))
-else:
-    print("'{}' is not a palindrome".format(word))
+# word = input("please enter a word to check: ")
+# if palindrome_sentence(word):
+#     print("'{}' is a palindrome".format(word))
+# else:
+#     print("'{}' is not a palindrome".format(word))
 
 # Was it a car, or a cat, I saw = Palidrome.
 # Radar = Palidrome.
