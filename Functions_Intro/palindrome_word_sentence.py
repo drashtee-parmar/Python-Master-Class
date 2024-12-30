@@ -1,7 +1,8 @@
 # A palidrom is a word that reads the same backwords as forwards.
 # Palidromes are normally created for fun. There's nothing wring with having a bit of fun, but
 
-def is_palindrome(string):
+# def is_palindrome(string):
+def is_palindrome(string: str) -> bool: # annotations
     """
     Check if a string is a palindrome.
 
@@ -32,7 +33,8 @@ def is_palindrome(string):
 # Remember that we ignore spaces, punctuation and things like tabs and line feeds. We're only interested in alphanumeric characters.
 #
 
-def palindrome_sentence(sentence):
+# def palindrome_sentence(sentence):
+def palindrome_sentence(sentence: str) -> bool:
     """
         Check if a sentence is a palindrome.
 
@@ -51,7 +53,6 @@ def palindrome_sentence(sentence):
     # return string[::-1].casefold() == string.casefold()  # casefold for upper and lower case strings
     return is_palindrome(string)
 
-
 # word = input("please enter a word to check: ")
 # if palindrome_sentence(word):
 #     print("'{}' is a palindrome".format(word))
@@ -61,3 +62,6 @@ def palindrome_sentence(sentence):
 # Was it a car, or a cat, I saw = Palidrome.
 # Radar = Palidrome.
 # do geese see god? = Palidrome.
+
+
+# p = is_palindrome()

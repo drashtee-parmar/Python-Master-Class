@@ -118,6 +118,8 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - [parameters](https://docs.python.org/3/glossary.html#term-parameter)
 - [Docstring Conventions](https://peps.python.org/pep-0257/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [Typing](https://docs.python.org/3/library/typing.html)
+- [Function Annotations](https://peps.python.org/pep-3107/)
 - 
 
 
