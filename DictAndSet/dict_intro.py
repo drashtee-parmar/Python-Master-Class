@@ -45,5 +45,9 @@ vehicles["toy"] = "Glider"
 # ----------------------Updating the values in vehicle virago -------------------------------------
 # upgrade the Virago model
 vehicles['virago'] = "Yamaha XV535"
+
+# remove item from dictionary if
+del vehicles["starfigher"]
+
 for key, value in vehicles.items():
     print(key, value, sep=", ")
