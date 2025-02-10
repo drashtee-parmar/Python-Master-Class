@@ -93,6 +93,30 @@ Lists are immutable - they can be changed. When we appended a new item, Python w
 - `Positional argument` are assigned to the parameters in the order they appear.
 - In fact, the arguments in this example are really called `positional-or-keyword` arguments.
 - 
+ ## Dictionary 
+- A dictionary is a collection of `values`, that are stored using a `key`.
+- it is stored in key value pairs. it will be within {}. eg 
+- ```
+  vehicles = {
+    'key1': 'value1',
+    'key2': 'value2',
+  }
+  ```
+-  use [ ] square brackets while retrieveing values from the dictionary
+```
+my_car = vehicles['key2']
+print(my_car)
+
+output = value2
+```
+- it values of key value pair in dictionary can also be retrived using .get and using pranthesised with double quotes (" "). it should match the same as key mentioned.
+````# using get methods
+learner = vehicles.get("er5")
+print(learner)
+
+````
+- if the key doesn't exist, dot get will return the None, whereas indexing will crash with the keyError value
+- 
 
 # RESOURCES
 - [Truth Value](https://docs.python.org/3/library/stdtypes.html)
