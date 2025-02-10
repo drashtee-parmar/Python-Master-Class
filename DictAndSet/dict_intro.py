@@ -1,6 +1,5 @@
 vehicles = {
     'dream': 'Honda 250T',
-    'roadster': 'BMW R1100',
     'er5': 'Kawasaki ER5',
     'can-am': 'Bombardier Can-Am 250',
     'virago': 'Yamaha XV250',
