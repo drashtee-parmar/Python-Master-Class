@@ -49,5 +49,17 @@ vehicles['virago'] = "Yamaha XV535"
 # remove item from dictionary if
 del vehicles["starfigher"]
 
+# remove item from dictionary, it does not exist
+# del vehicles["f1"]
+# result = vehicles.pop("f1", None)  # if None: if not sure if key exist and it will not crash if dont have key
+result = vehicles.pop("f1", "You wish! Sell the Learjet and you might afford a racing car.") # if not sure if key exist and# if None: if not sure if key exist and it will not crash if dont have key
+print(result)
+plane = vehicles.pop("learjet")
+print(plane)
+
+bike = vehicles.pop("tenere", "not present")
+print(bike)
+print()
+
 for key, value in vehicles.items():
     print(key, value, sep=", ")
