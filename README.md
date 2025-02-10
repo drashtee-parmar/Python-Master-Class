@@ -118,6 +118,9 @@ print(learner)
 - if the key doesn't exist, dot get will return the None, whereas indexing will crash with the keyError value
 - Dictionary does not have append method. we assign it using the key
 - list and dictionary has pop method
+- When used in with the list, it checks the items in a list.
+- When us in with the dictionary it checks the keys in the dictionary - not the values.
+- 
 # RESOURCES
 - [Truth Value](https://docs.python.org/3/library/stdtypes.html)
 - [String Method](https://docs.python.org/3/library/stdtypes.html#string-methods)
