@@ -7,6 +7,7 @@ vehicles = {
     'tenere': 'Yamaha XT650',
     'jimny': 'Suzuki Jimny 1.5',
     'fiesta': 'Ford Fiesta Ghia 1.4',
+    'roadster': "Triump Street Triple",  # duplicate but replace with the latest value
 }
 # -------------------------------
 # # finding with key
@@ -42,5 +43,8 @@ vehicles["starfigher"] = "Lockheed F-104"
 vehicles["learjet"] = "Bombardier Learjet 75"
 vehicles["toy"] = "Glider"
 
+# ----------------------Updating the values in vehicle virago -------------------------------------
+# upgrade the Virago model
+vehicles['virago'] = "Yamaha XV535"
 for key, value in vehicles.items():
     print(key, value, sep=", ")
