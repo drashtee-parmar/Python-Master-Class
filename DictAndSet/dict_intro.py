@@ -36,5 +36,11 @@ vehicles = {
 # for key in vehicles:
 #     print(key, vehicles[key], sep=", ")
 # -------------------------------
+
+
+vehicles["starfigher"] = "Lockheed F-104"
+vehicles["learjet"] = "Bombardier Learjet 75"
+vehicles["toy"] = "Glider"
+
 for key, value in vehicles.items():
     print(key, value, sep=", ")

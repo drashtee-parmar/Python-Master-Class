@@ -116,7 +116,7 @@ print(learner)
 
 ````
 - if the key doesn't exist, dot get will return the None, whereas indexing will crash with the keyError value
-- 
+- Dictionary does not have append method. we assign it using the key
 
 # RESOURCES
 - [Truth Value](https://docs.python.org/3/library/stdtypes.html)
